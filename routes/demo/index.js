@@ -10,4 +10,4 @@ router.use(middlewares.auth.required)
 
 router.get('/secret', controllers.secret)
 
-module.exports = router.routes()
+module.exports = router
