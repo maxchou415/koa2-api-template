@@ -7,10 +7,10 @@ const bodyparser = require('koa-bodyparser')
 const logger = require('koa-logger')
 const cors = require('koa2-cors')
 
-const api = require('./routes/index')
+const api = require('./routes')
 
 // database
-// require('./infra/utils/database').testConnection()
+require('./infra/utils/database').testConnection()
 
 // middlewares
 app.use(bodyparser({
