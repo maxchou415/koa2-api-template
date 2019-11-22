@@ -24,10 +24,12 @@
     "koa-router": "^7.1.1",
     "koa-views": "^5.2.1",
     "koa2-cors": "^2.0.6",
+    "pg": "^7.14.0",
     "sequelize": "^5.8.6",
     "uniqid": "^5.0.3"
   },
   "devDependencies": {
-    "nodemon": "^1.8.1"
+    "nodemon": "^1.8.1",
+    "sequelize-cli": "^5.5.1"
   }
 }
